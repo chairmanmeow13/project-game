@@ -1,0 +1,8 @@
+DROP DATABASE IF EXISTS lotr_DB;
+CREATE DATABASE lotr_DB;
+USE lotr_DB;
+CREATE TABLE scores(
+  id INT NOT NULL AUTO_INCREMENT,
+  player_score INT default 0,
+  PRIMARY KEY (id)
+);
